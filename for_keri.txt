@@ -1,0 +1,72 @@
+Hello Keri,
+
+The feedback is collected below. Unless otherwise noted, we agree with
+your //..// comments.
+
+We also want some more extensive simplifications done in the Fwrap
+section, and there's an updated bio for Dag Sverre Seljebotn. You may
+make stylistic changes to this new content as you see fit without
+consulting us further.
+
+ * Data transformation and reduction: The new text is incorrect.
+   Suggestion: "[...] for three vectors x, y, and z. For such
+   expressions, you usually don’t need to use Cython, as the NumPy
+   operations tend to be fast enough.
+
+ * Optimization and problem solving: It should definitely say
+   "equation in 12 variables", not "with".
+
+ * Optimization and problem solving, last sentence: New text is
+   incorrect. Suggestion: "[...] using Newton's method on equations in
+   a single variable, for example."
+
+ * Fwrap section: We found something that is factually incorrect.
+   Please replace: "Fwrap’s approach differs in that it leverages
+   Cython’s power for the Python bindings, and the C interoperability
+   allows Fwrap to support Fortran features--such as derived
+   types--that these other tools don’t."
+
+   With this: "Fwrap's approach differs in that it leverages Cython to
+   create Python bindings.  Manual tuning of the wrapper can be easily
+   accomplished by simply modifying the generated Cython code, rather
+   than using a restricted domain-specific language.  Another benefit
+   is reduced overhead when calling Fortran code from Python."
+
+ * Fwrap section: We want to simplify; please replace 4 paragraphs
+   starting with "Invoking fwrapc" with (again, feel free to make
+   stylistic changes):
+
+   "When invoked on the above Fortran code, Fwrap parses the code and
+   makes it available to C, Cython and Python.  If desired, we can
+   generate a deployable package for use on computers that don't have
+   Fwrap or Cython installed.  To use the wrapped code from Python,//
+   we must first set up the subroutine arguments—in particular, the a
+   array argument. To do this, we set the array dimensions and then
+   create the array, filling it with random values. To simplify
+   matters, we set all array dimensions equal to m:"
+
+ * Limitations section: We do not want to add "in" where you suggest.
+
+ * References: Please drop reference 2 from the list.
+
+ * References: Reference 5, J. Bergstra, should be "J. Bergstra et al."
+   (there are 8 authors in total). Also, it is merely submitted and
+   not published yet; preprint URL:
+   http://www.iro.umontreal.ca/~lisa/publications2/index.php/publications/show/461
+
+ * Author bios: Dag Sverre has recently been awarded a PhD
+   scholarship and would appriciate if the bio could be replaced:
+
+   Dag Sverre Seljebotn is a doctoral student in the Institute of
+   Theoretical Astrophysics at the University of Oslo, Norway, where
+   he studies computational cosmology, in particular cosmic microwave
+   background analysis. Seljebotn has a MSc in computational science
+   from the same university. Contact him at dagseljebotn@gmail.com.
+
+ * Author bios: Kurt is with the Department of Physics. CFD is spelled
+   out Computational Fluid Dynamics.
+ 
+ * Author bios: Lisandro's email is dalcinl@gmail.com. [TODO: Postal
+   address?]
+
+ * Keywords: python cython [TODO: more..]
