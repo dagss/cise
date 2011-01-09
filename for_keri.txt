@@ -47,7 +47,7 @@ consulting us further.
 
  * Limitations section: We do not want to add "in" where you suggest.
 
- * References: Please drop reference 2 from the list.
+ * References: Please drop reference 2 (Smith & Seljebotn) from the list.
 
  * References: Reference 5, J. Bergstra, should be "J. Bergstra et al."
    (there are 8 authors in total). Also, it is merely submitted and
