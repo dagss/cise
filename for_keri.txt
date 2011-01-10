@@ -3,10 +3,8 @@ Hello Keri,
 The feedback is collected below. Unless otherwise noted, we agree with
 your //..// comments.
 
-We also want some more extensive simplifications done in the Fwrap
-section, and there's an updated bio for Dag Sverre Seljebotn. You may
-make stylistic changes to this new content as you see fit without
-consulting us further.
+You may make stylistic changes to any new content as you see fit
+without consulting us further.
 
  * The "Beyond Pure Python" section seems misplaced. We suggest to
    rename it to "Related work" and move it to just before the Fwrap
