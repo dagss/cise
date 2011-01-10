@@ -24,12 +24,18 @@ consulting us further.
    expressions, you usually don’t need to use Cython, as the NumPy
    operations tend to be fast enough.
 
- * Optimization and problem solving: It should definitely say
+ * Optimization and equation solving: It should definitely say
    "equation in 12 variables", not "with".
 
- * Optimization and problem solving, last sentence: New text is
+ * Optimization and equation solving, last sentence: New text is
    incorrect. Suggestion: "[...] using Newton's method on equations in
    a single variable, for example."
+
+ * Nonrectangular Arrays and Data Repacking: The formulas here do not
+   look good at all, although this may be an artifact of us using
+   OpenOffice to display the document. Refer to the submitted PDF for
+   typesetting. Normal l can be used in place of "handwritten l" if
+   necessarry.
 
  * Fwrap section: We found something that is factually incorrect.
    Please replace: "Fwrap’s approach differs in that it leverages
@@ -65,6 +71,9 @@ consulting us further.
    not published yet; preprint URL:
    http://www.iro.umontreal.ca/~lisa/publications2/index.php/publications/show/461
 
+ * Author bios: Robert Bradshaw changed his email to
+   robertwb@gmail.com.
+
  * Author bios: Dag Sverre has recently been awarded a PhD
    scholarship and would appriciate if the bio could be replaced:
 
@@ -80,4 +89,4 @@ consulting us further.
  * Author bios: Lisandro's email is dalcinl@gmail.com.
    Postal address: Güemes 3450, 3000 Santa Fe, Argentina
 
- * Keywords: python cython [TODO: more..]
+ * Keywords: python, cython, numerics, scientific computing
