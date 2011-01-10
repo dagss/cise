@@ -66,7 +66,7 @@ consulting us further.
  * Author bios: Kurt is with the Department of Physics. CFD is spelled
    out Computational Fluid Dynamics.
  
- * Author bios: Lisandro's email is dalcinl@gmail.com. [TODO: Postal
-   address?]
+ * Author bios: Lisandro's email is dalcinl@gmail.com.
+   Postal address: Güemes 3450, 3000 Santa Fe, Argentina
 
  * Keywords: python cython [TODO: more..]
