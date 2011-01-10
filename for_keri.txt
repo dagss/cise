@@ -3,8 +3,8 @@ Hello Keri,
 The feedback is collected below. Unless otherwise noted, we agree with
 your //..// comments.
 
-You may make stylistic changes to any new content as you see fit
-without consulting us further.
+You may make stylistic changes to the replacement text proposed on
+various points below as you see fit without consulting us further.
 
  * The "Beyond Pure Python" section seems misplaced. We suggest to
    rename it to "Related work" and move it to just before the Fwrap
