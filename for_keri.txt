@@ -54,7 +54,7 @@ various points below as you see fit without consulting us further.
    "When invoked on the above Fortran code, Fwrap parses the code and
    makes it available to C, Cython and Python.  If desired, we can
    generate a deployable package for use on computers that don't have
-   Fwrap or Cython installed.  To use the wrapped code from Python,//
+   Fwrap or Cython installed.  To use the wrapped code from Python,
    we must first set up the subroutine arguments—in particular, the a
    array argument. To do this, we set the array dimensions and then
    create the array, filling it with random values. To simplify
