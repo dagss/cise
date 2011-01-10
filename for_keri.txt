@@ -8,6 +8,17 @@ section, and there's an updated bio for Dag Sverre Seljebotn. You may
 make stylistic changes to this new content as you see fit without
 consulting us further.
 
+ * The "Beyond Pure Python" section seems misplaced. We suggest to
+   rename it to "Related work" and move it to just before the Fwrap
+   section.
+
+   However, we still want to give credit to Pyrex and Greg Ewing near
+   the top. So insert a sentence in the introduction referencing the
+   section (before "Finally, we describe Fwrap"): 
+
+       Cython is based on Greg Ewing’s Pyrex, and we describe the
+       differences and compare Pyrex and other related tools.
+
  * Data transformation and reduction: The new text is incorrect.
    Suggestion: "[...] for three vectors x, y, and z. For such
    expressions, you usually don’t need to use Cython, as the NumPy
